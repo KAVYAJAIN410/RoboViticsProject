@@ -53,8 +53,8 @@ class Event(Base):
     participants = Column(Integer)
     event_status = Column(String(255))
     registration_deadline = Column(TIMESTAMP, nullable=True)
-    event_embedding = Column(Vector(300))  # Adjust the dimension as needed
-    club_id = Column(Integer, ForeignKey('clubs.id'), nullable=True)  # Club association
+    event_embedding = Column(Vector(300))  
+    club_id = Column(Integer, ForeignKey('clubs.id'), nullable=True)  
     
     registrations = relationship('UserEventRegistration', back_populates='event')
     club = relationship('Club', back_populates='events')
