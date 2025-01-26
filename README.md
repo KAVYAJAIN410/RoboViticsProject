@@ -35,10 +35,10 @@ Follow these steps to set up and run the Events API:
 
 Create a .env file in the root of the project and include the following environment variables:
 
-GOOGLE_CLIENT_ID
-GOOGLE_CLIENT_SECRET
-GOOGLE_REDIRECT_LINK
-SECRET_KEY
+GOOGLE_CLIENT_ID,
+GOOGLE_CLIENT_SECRET,
+GOOGLE_REDIRECT_LINK,
+SECRET_KEY,
 DATABASE_URL
 
 5.**Running the Application**
