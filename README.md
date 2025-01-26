@@ -35,11 +35,11 @@ Follow these steps to set up and run the Events API:
 
 Create a .env file in the root of the project and include the following environment variables:
 
-GOOGLE_CLIENT_ID.
-GOOGLE_CLIENT_SECRET.
-GOOGLE_REDIRECT_LINK.
-SECRET_KEY.
-DATABASE_URL.
+GOOGLE_CLIENT_ID, 
+ GOOGLE_CLIENT_SECRET,
+  GOOGLE_REDIRECT_LINK,
+   SECRET_KEY,
+    DATABASE_URL,
 
 5.**Running the Application**
 Once the dependencies are installed and the environment variables are set up, you can run the FastAPI application using Uvicorn.
