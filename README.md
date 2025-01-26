@@ -46,7 +46,7 @@ Once the dependencies are installed and the environment variables are set up, yo
 
    **start the Server:**.
    
-      **uvicorn app.main:app --reload --host localhost --port 8000**
+    uvicorn app.main:app --reload --host localhost --port 8000
 
 6. **Authentication**
 To authenticate users, navigate to the /login endpoint
