@@ -44,7 +44,8 @@ GOOGLE_CLIENT_ID,
 5.**Running the Application**
 Once the dependencies are installed and the environment variables are set up, you can run the FastAPI application using Uvicorn.
 
-   **start the Server:**
+   **start the Server:**.
+   
       **uvicorn app.main:app --reload --host localhost --port 8000**
 
 6. **Authentication**
