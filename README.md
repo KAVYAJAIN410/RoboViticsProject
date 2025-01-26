@@ -27,8 +27,9 @@ Follow these steps to set up and run the Events API:
 
 3. **Install the Requirements**
 
-Install the required dependencies listed in requirements.txt:
-pip install -r requirements.txt
+      Install the required dependencies listed in requirements.txt:
+      ```bash
+      pip install -r requirements.txt
 
 4. **Add Environment Variables**
 
@@ -43,10 +44,14 @@ DATABASE_URL
 5.**Running the Application**
 Once the dependencies are installed and the environment variables are set up, you can run the FastAPI application using Uvicorn.
 
-Start the Server:
-uvicorn app.main:app --reload --host localhost --port 8000
+      Start the Server:
+      ```bash
+      uvicorn app.main:app --reload --host localhost --port 8000
 
 6. **Authentication**
 To authenticate users, navigate to the /login endpoint
+
+
+
 
 
