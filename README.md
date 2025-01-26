@@ -44,9 +44,8 @@ DATABASE_URL
 5.**Running the Application**
 Once the dependencies are installed and the environment variables are set up, you can run the FastAPI application using Uvicorn.
 
-      Start the Server:
-      ```bash
-      uvicorn app.main:app --reload --host localhost --port 8000
+Start the Server:
+uvicorn app.main:app --reload --host localhost --port 8000
 
 6. **Authentication**
 To authenticate users, navigate to the /login endpoint
